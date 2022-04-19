@@ -1,0 +1,8 @@
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-02\bin\Debug\2203-02.exe.config
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-02\bin\Debug\2203-02.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-02\bin\Debug\2203-02.pdb
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-02\obj\Debug\2203-02 Sesli harfleri bulma.csproj.AssemblyReference.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-02\obj\Debug\2203-02 Sesli harfleri bulma.csproj.SuggestedBindingRedirects.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-02\obj\Debug\2203-02 Sesli harfleri bulma.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-02\obj\Debug\2203-02.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-02\obj\Debug\2203-02.pdb

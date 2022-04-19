@@ -1,0 +1,8 @@
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\1503-01 İsim yazdırma\1803-07\bin\Debug\1803-07.exe.config
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\1503-01 İsim yazdırma\1803-07\bin\Debug\1803-07.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\1503-01 İsim yazdırma\1803-07\bin\Debug\1803-07.pdb
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\1503-01 İsim yazdırma\1803-07\obj\Debug\1803-07.csproj.AssemblyReference.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\1503-01 İsim yazdırma\1803-07\obj\Debug\1803-07.csproj.SuggestedBindingRedirects.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\1503-01 İsim yazdırma\1803-07\obj\Debug\1803-07.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\1503-01 İsim yazdırma\1803-07\obj\Debug\1803-07.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\1503-01 İsim yazdırma\1803-07\obj\Debug\1803-07.pdb

@@ -1,0 +1,8 @@
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\1503-01 İsim yazdırma\1703-07 Faktöriyel\bin\Debug\1703-07 Faktöriyel.exe.config
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\1503-01 İsim yazdırma\1703-07 Faktöriyel\bin\Debug\1703-07 Faktöriyel.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\1503-01 İsim yazdırma\1703-07 Faktöriyel\bin\Debug\1703-07 Faktöriyel.pdb
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\1503-01 İsim yazdırma\1703-07 Faktöriyel\obj\Debug\1703-07 Faktöriyel.csproj.AssemblyReference.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\1503-01 İsim yazdırma\1703-07 Faktöriyel\obj\Debug\1703-07 Faktöriyel.csproj.SuggestedBindingRedirects.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\1503-01 İsim yazdırma\1703-07 Faktöriyel\obj\Debug\1703-07 Faktöriyel.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\1503-01 İsim yazdırma\1703-07 Faktöriyel\obj\Debug\1703-07 Faktöriyel.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\1503-01 İsim yazdırma\1703-07 Faktöriyel\obj\Debug\1703-07 Faktöriyel.pdb

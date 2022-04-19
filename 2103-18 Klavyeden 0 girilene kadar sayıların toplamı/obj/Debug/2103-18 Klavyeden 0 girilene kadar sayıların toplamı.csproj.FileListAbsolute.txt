@@ -1,0 +1,8 @@
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-18 Klavyeden 0 girilene kadar sayıların toplamı\bin\Debug\2103-18 Klavyeden 0 girilene kadar sayıların toplamı.exe.config
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-18 Klavyeden 0 girilene kadar sayıların toplamı\bin\Debug\2103-18 Klavyeden 0 girilene kadar sayıların toplamı.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-18 Klavyeden 0 girilene kadar sayıların toplamı\bin\Debug\2103-18 Klavyeden 0 girilene kadar sayıların toplamı.pdb
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-18 Klavyeden 0 girilene kadar sayıların toplamı\obj\Debug\2103-18 Klavyeden 0 girilene kadar sayıların toplamı.csproj.AssemblyReference.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-18 Klavyeden 0 girilene kadar sayıların toplamı\obj\Debug\2103-18 Klavyeden 0 girilene kadar sayıların toplamı.csproj.SuggestedBindingRedirects.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-18 Klavyeden 0 girilene kadar sayıların toplamı\obj\Debug\2103-18 Klavyeden 0 girilene kadar sayıların toplamı.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-18 Klavyeden 0 girilene kadar sayıların toplamı\obj\Debug\2103-18 Klavyeden 0 girilene kadar sayıların toplamı.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-18 Klavyeden 0 girilene kadar sayıların toplamı\obj\Debug\2103-18 Klavyeden 0 girilene kadar sayıların toplamı.pdb

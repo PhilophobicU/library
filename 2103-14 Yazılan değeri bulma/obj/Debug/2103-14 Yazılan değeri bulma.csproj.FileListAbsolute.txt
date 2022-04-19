@@ -1,0 +1,8 @@
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-14\bin\Debug\2103-14.exe.config
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-14\bin\Debug\2103-14.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-14\bin\Debug\2103-14.pdb
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-14\obj\Debug\2103-14 Yazılan değeri bulma.csproj.AssemblyReference.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-14\obj\Debug\2103-14 Yazılan değeri bulma.csproj.SuggestedBindingRedirects.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-14\obj\Debug\2103-14 Yazılan değeri bulma.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-14\obj\Debug\2103-14.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-14\obj\Debug\2103-14.pdb

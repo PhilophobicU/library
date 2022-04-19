@@ -1,0 +1,11 @@
+C:\Users\STUDENT2\source\repos\3103-form01\3103-22\bin\Debug\3103-22.exe.config
+C:\Users\STUDENT2\source\repos\3103-form01\3103-22\bin\Debug\3103-22.exe
+C:\Users\STUDENT2\source\repos\3103-form01\3103-22\bin\Debug\3103-22.pdb
+C:\Users\STUDENT2\source\repos\3103-form01\3103-22\obj\Debug\3103-22.csproj.AssemblyReference.cache
+C:\Users\STUDENT2\source\repos\3103-form01\3103-22\obj\Debug\_3103_22.Form1.resources
+C:\Users\STUDENT2\source\repos\3103-form01\3103-22\obj\Debug\_3103_22.Properties.Resources.resources
+C:\Users\STUDENT2\source\repos\3103-form01\3103-22\obj\Debug\3103-22.csproj.GenerateResource.cache
+C:\Users\STUDENT2\source\repos\3103-form01\3103-22\obj\Debug\3103-22.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT2\source\repos\3103-form01\3103-22\obj\Debug\3103-22.exe
+C:\Users\STUDENT2\source\repos\3103-form01\3103-22\obj\Debug\3103-22.pdb
+C:\Users\STUDENT2\source\repos\3103-form01\3103-22\obj\Debug\_3103_22.menuler.resources

@@ -1,0 +1,8 @@
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-13 10-100 arası çift sayıların 50den küçüklerini\bin\Debug\2203-13 10-100 arası çift sayıların 50den küçüklerini.exe.config
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-13 10-100 arası çift sayıların 50den küçüklerini\bin\Debug\2203-13 10-100 arası çift sayıların 50den küçüklerini.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-13 10-100 arası çift sayıların 50den küçüklerini\bin\Debug\2203-13 10-100 arası çift sayıların 50den küçüklerini.pdb
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-13 10-100 arası çift sayıların 50den küçüklerini\obj\Debug\2203-13 10-100 arası çift sayıların 50den küçüklerini.csproj.AssemblyReference.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-13 10-100 arası çift sayıların 50den küçüklerini\obj\Debug\2203-13 10-100 arası çift sayıların 50den küçüklerini.csproj.SuggestedBindingRedirects.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-13 10-100 arası çift sayıların 50den küçüklerini\obj\Debug\2203-13 10-100 arası çift sayıların 50den küçüklerini.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-13 10-100 arası çift sayıların 50den küçüklerini\obj\Debug\2203-13 10-100 arası çift sayıların 50den küçüklerini.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-13 10-100 arası çift sayıların 50den küçüklerini\obj\Debug\2203-13 10-100 arası çift sayıların 50den küçüklerini.pdb

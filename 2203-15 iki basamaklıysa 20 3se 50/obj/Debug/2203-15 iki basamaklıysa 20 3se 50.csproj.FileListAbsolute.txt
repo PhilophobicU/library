@@ -1,0 +1,8 @@
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-15 iki basamaklıysa 20 3se 50\bin\Debug\2203-15 iki basamaklıysa 20 3se 50.exe.config
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-15 iki basamaklıysa 20 3se 50\bin\Debug\2203-15 iki basamaklıysa 20 3se 50.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-15 iki basamaklıysa 20 3se 50\bin\Debug\2203-15 iki basamaklıysa 20 3se 50.pdb
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-15 iki basamaklıysa 20 3se 50\obj\Debug\2203-15 iki basamaklıysa 20 3se 50.csproj.AssemblyReference.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-15 iki basamaklıysa 20 3se 50\obj\Debug\2203-15 iki basamaklıysa 20 3se 50.csproj.SuggestedBindingRedirects.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-15 iki basamaklıysa 20 3se 50\obj\Debug\2203-15 iki basamaklıysa 20 3se 50.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-15 iki basamaklıysa 20 3se 50\obj\Debug\2203-15 iki basamaklıysa 20 3se 50.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2203-01\2203-15 iki basamaklıysa 20 3se 50\obj\Debug\2203-15 iki basamaklıysa 20 3se 50.pdb

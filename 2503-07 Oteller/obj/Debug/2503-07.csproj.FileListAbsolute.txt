@@ -1,0 +1,22 @@
+C:\Users\STUDENT2\source\repos\2503-01\2503-07\obj\Debug\2503-07.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT2\source\repos\2503-01\2503-07\bin\Debug\2503-07.exe.config
+C:\Users\STUDENT2\source\repos\2503-01\2503-07\bin\Debug\2503-07.exe
+C:\Users\STUDENT2\source\repos\2503-01\2503-07\bin\Debug\2503-07.pdb
+C:\Users\STUDENT2\source\repos\2503-01\2503-07\obj\Debug\2503-07.exe
+C:\Users\STUDENT2\source\repos\2503-01\2503-07\obj\Debug\2503-07.pdb
+C:\Users\fatih\Desktop\New folder\2503-07\bin\Debug\2503-07.exe.config
+C:\Users\fatih\Desktop\New folder\2503-07\bin\Debug\2503-07.exe
+C:\Users\fatih\Desktop\New folder\2503-07\bin\Debug\2503-07.pdb
+C:\Users\fatih\Desktop\New folder\2503-07\obj\Debug\2503-07.csproj.AssemblyReference.cache
+C:\Users\fatih\Desktop\New folder\2503-07\obj\Debug\2503-07.csproj.SuggestedBindingRedirects.cache
+C:\Users\fatih\Desktop\New folder\2503-07\obj\Debug\2503-07.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\New folder\2503-07\obj\Debug\2503-07.exe
+C:\Users\fatih\Desktop\New folder\2503-07\obj\Debug\2503-07.pdb
+C:\Users\fatih\Desktop\New folder\2503-07 Oteller\bin\Debug\2503-07.exe.config
+C:\Users\fatih\Desktop\New folder\2503-07 Oteller\bin\Debug\2503-07.exe
+C:\Users\fatih\Desktop\New folder\2503-07 Oteller\bin\Debug\2503-07.pdb
+C:\Users\fatih\Desktop\New folder\2503-07 Oteller\obj\Debug\2503-07.csproj.AssemblyReference.cache
+C:\Users\fatih\Desktop\New folder\2503-07 Oteller\obj\Debug\2503-07.csproj.SuggestedBindingRedirects.cache
+C:\Users\fatih\Desktop\New folder\2503-07 Oteller\obj\Debug\2503-07.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\New folder\2503-07 Oteller\obj\Debug\2503-07.exe
+C:\Users\fatih\Desktop\New folder\2503-07 Oteller\obj\Debug\2503-07.pdb

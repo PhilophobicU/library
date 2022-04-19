@@ -1,0 +1,8 @@
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-20 1-100 random 50yi bul\bin\Debug\2103-20 1-100 random 50yi bul.exe.config
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-20 1-100 random 50yi bul\bin\Debug\2103-20 1-100 random 50yi bul.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-20 1-100 random 50yi bul\bin\Debug\2103-20 1-100 random 50yi bul.pdb
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-20 1-100 random 50yi bul\obj\Debug\2103-20 1-100 random 50yi bul.csproj.AssemblyReference.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-20 1-100 random 50yi bul\obj\Debug\2103-20 1-100 random 50yi bul.csproj.SuggestedBindingRedirects.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-20 1-100 random 50yi bul\obj\Debug\2103-20 1-100 random 50yi bul.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-20 1-100 random 50yi bul\obj\Debug\2103-20 1-100 random 50yi bul.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-20 1-100 random 50yi bul\obj\Debug\2103-20 1-100 random 50yi bul.pdb

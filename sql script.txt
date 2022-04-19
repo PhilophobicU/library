@@ -1,0 +1,54 @@
+select m.MusteriAdi,m.MusteriUnvani,m.MusteriID,s.OdemeTarihi,s.ShipVia,s.SevkTarihi from Satislar s inner join Musteriler m
+on s.MusteriID = m.MusteriID
+
+select e.SirketAdi,e.Sehir,e.Adres from MusteriMusteriDemo m inner join Musteriler e join Satislar s
+on s.MusteriID = e.MusteriID,m.MusteriID
+
+select m.MusteriUnvani,m.MusteriAdi,s.SatisTarihi,s.NakliyeUcreti,p.Adi,p.SoyAdi from Musteriler m inner join Satislar s
+on m.MusteriID = s.MusteriID join Personeller p 
+on s.PersonelID = p.PersonelID order by NakliyeUcreti desc    -- 3 tabloyu birnirine bağlama
+
+-- satislar ile nakliyecileri bağla satışlarla personelleri bağla
+--nakliyeci id ve ship via -- nakliye ücreti 500den fazla olanlar
+-- işe ilk başlayan kişinin ünvanı işe başlamma tarihi sevk adını ve şirket adıyla telefonunu getiren sorgu
+
+select p.IseBaslamaTarihi,p.Unvan,s.SevkAdi,n.SirketAdi,n.Telefon,s.NakliyeUcreti from Nakliyeciler n inner join Satislar s
+on n.NakliyeciID = s.ShipVia join Personeller p
+on s.PersonelID = p.PersonelID where s.NakliyeUcreti > 500 order by p.IseBaslamaTarihi asc
+
+create proc OAdd
+@Adsoyad varchar(50),
+@TcNo char(11),
+@Telefon nchar(11),
+@Mail varchar(50),
+@Adres varchar(50),
+@Dersno int
+as begin
+insert into Ogrenciler (AdSoyad,TcNo,Telefon,Mail,Adres,DersNo)
+values(@Adsoyad,@TcNo,@Telefon,@Mail,@Adres,@Dersno)
+end
+
+execute OAdd 'behinur','1454545','54545','nurlugirl@hotmail.com','şişli',1
+
+create proc OY
+@OgrenciNo int,
+@Adsoyad varchar(50),
+@TcNo char(11),
+@Telefon nchar(11),
+@Mail varchar(50),
+@Adres varchar(50),
+@Dersno int
+as begin
+update Ogrenciler set Adsoyad = @Adsoyad,TcNo = @TcNo,Telefon = @Telefon,Mail = @Mail,Adres = @Adres,DersNo = @Dersno where ÖğrenciNo = @OgrenciNo
+end
+
+create proc OSL
+@OgrenciNo int
+as begin
+delete from Ogrenciler where ÖğrenciNo=@OgrenciNo
+end
+
+create proc OG
+as begin
+select * from Ogrenciler
+end

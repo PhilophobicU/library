@@ -1,0 +1,8 @@
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-19 Kullanıcı adı\bin\Debug\2103-19 Kullanıcı adı.exe.config
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-19 Kullanıcı adı\bin\Debug\2103-19 Kullanıcı adı.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-19 Kullanıcı adı\bin\Debug\2103-19 Kullanıcı adı.pdb
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-19 Kullanıcı adı\obj\Debug\2103-19 Kullanıcı adı.csproj.AssemblyReference.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-19 Kullanıcı adı\obj\Debug\2103-19 Kullanıcı adı.csproj.SuggestedBindingRedirects.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-19 Kullanıcı adı\obj\Debug\2103-19 Kullanıcı adı.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-19 Kullanıcı adı\obj\Debug\2103-19 Kullanıcı adı.exe
+C:\Users\fatih\Desktop\C sharp learning\1503 trains\2103-01\2103-19 Kullanıcı adı\obj\Debug\2103-19 Kullanıcı adı.pdb

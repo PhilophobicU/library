@@ -1,0 +1,8 @@
+C:\Users\fatih\Desktop\New folder\2503-01\bin\Debug\2503-01.exe.config
+C:\Users\fatih\Desktop\New folder\2503-01\bin\Debug\2503-01.exe
+C:\Users\fatih\Desktop\New folder\2503-01\bin\Debug\2503-01.pdb
+C:\Users\fatih\Desktop\New folder\2503-01\obj\Debug\2503-01.csproj.AssemblyReference.cache
+C:\Users\fatih\Desktop\New folder\2503-01\obj\Debug\2503-01.csproj.SuggestedBindingRedirects.cache
+C:\Users\fatih\Desktop\New folder\2503-01\obj\Debug\2503-01.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\New folder\2503-01\obj\Debug\2503-01.exe
+C:\Users\fatih\Desktop\New folder\2503-01\obj\Debug\2503-01.pdb

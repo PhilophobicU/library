@@ -1,0 +1,15 @@
+C:\Users\STUDENT2\source\repos\2803-01\2803-02\bin\Debug\2803-02.exe.config
+C:\Users\STUDENT2\source\repos\2803-01\2803-02\bin\Debug\2803-02.exe
+C:\Users\STUDENT2\source\repos\2803-01\2803-02\bin\Debug\2803-02.pdb
+C:\Users\STUDENT2\source\repos\2803-01\2803-02\obj\Debug\2803-02.csproj.AssemblyReference.cache
+C:\Users\STUDENT2\source\repos\2803-01\2803-02\obj\Debug\2803-02.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT2\source\repos\2803-01\2803-02\obj\Debug\2803-02.exe
+C:\Users\STUDENT2\source\repos\2803-01\2803-02\obj\Debug\2803-02.pdb
+C:\Users\fatih\Desktop\New folder (2)\2803-02\bin\Debug\2803-02.exe.config
+C:\Users\fatih\Desktop\New folder (2)\2803-02\bin\Debug\2803-02.exe
+C:\Users\fatih\Desktop\New folder (2)\2803-02\bin\Debug\2803-02.pdb
+C:\Users\fatih\Desktop\New folder (2)\2803-02\obj\Debug\2803-02.csproj.AssemblyReference.cache
+C:\Users\fatih\Desktop\New folder (2)\2803-02\obj\Debug\2803-02.csproj.SuggestedBindingRedirects.cache
+C:\Users\fatih\Desktop\New folder (2)\2803-02\obj\Debug\2803-02.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\New folder (2)\2803-02\obj\Debug\2803-02.exe
+C:\Users\fatih\Desktop\New folder (2)\2803-02\obj\Debug\2803-02.pdb

@@ -1,0 +1,10 @@
+C:\Users\STUDENT2\source\repos\3103-form01\3103-form01\bin\Debug\3103-form01.exe.config
+C:\Users\STUDENT2\source\repos\3103-form01\3103-form01\bin\Debug\3103-form01.exe
+C:\Users\STUDENT2\source\repos\3103-form01\3103-form01\bin\Debug\3103-form01.pdb
+C:\Users\STUDENT2\source\repos\3103-form01\3103-form01\obj\Debug\3103-form01.csproj.AssemblyReference.cache
+C:\Users\STUDENT2\source\repos\3103-form01\3103-form01\obj\Debug\_3103_form01.Form1.resources
+C:\Users\STUDENT2\source\repos\3103-form01\3103-form01\obj\Debug\_3103_form01.Properties.Resources.resources
+C:\Users\STUDENT2\source\repos\3103-form01\3103-form01\obj\Debug\3103-form01.csproj.GenerateResource.cache
+C:\Users\STUDENT2\source\repos\3103-form01\3103-form01\obj\Debug\3103-form01.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT2\source\repos\3103-form01\3103-form01\obj\Debug\3103-form01.exe
+C:\Users\STUDENT2\source\repos\3103-form01\3103-form01\obj\Debug\3103-form01.pdb
