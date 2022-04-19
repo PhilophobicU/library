@@ -1,0 +1,17 @@
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\bin\Debug\Hastane.exe.config
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\bin\Debug\Hastane.exe
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\bin\Debug\Hastane.pdb
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\obj\Debug\Hastane.csproj.AssemblyReference.cache
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\obj\Debug\Hastane.csproj.SuggestedBindingRedirects.cache
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\obj\Debug\Hastane.Doktor.resources
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\obj\Debug\Hastane.Poliklinik.resources
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\obj\Debug\Hastane.Properties.Resources.resources
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\obj\Debug\Hastane.csproj.GenerateResource.cache
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\obj\Debug\Hastane.csproj.CoreCompileInputs.cache
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\obj\Debug\Hastane.exe
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\obj\Debug\Hastane.pdb
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\obj\Debug\Hastane.Anasayfa.resources
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\obj\Debug\Hastane.Kayit.resources
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\obj\Debug\Hastane.Hastalar.resources
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\obj\Debug\Hastane.Hemsire.resources
+F:\Users\fatih\Documents\GitHub\repo\Hastane\Hastane\obj\Debug\Hastane.Sorgu.resources

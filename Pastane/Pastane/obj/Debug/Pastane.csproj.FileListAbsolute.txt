@@ -1,0 +1,12 @@
+F:\Users\fatih\Documents\GitHub\repo\Pastane\Pastane\bin\Debug\Pastane.exe.config
+F:\Users\fatih\Documents\GitHub\repo\Pastane\Pastane\bin\Debug\Pastane.exe
+F:\Users\fatih\Documents\GitHub\repo\Pastane\Pastane\bin\Debug\Pastane.pdb
+F:\Users\fatih\Documents\GitHub\repo\Pastane\Pastane\obj\Debug\Pastane.csproj.AssemblyReference.cache
+F:\Users\fatih\Documents\GitHub\repo\Pastane\Pastane\obj\Debug\Pastane.csproj.SuggestedBindingRedirects.cache
+F:\Users\fatih\Documents\GitHub\repo\Pastane\Pastane\obj\Debug\Pastane.Form1.resources
+F:\Users\fatih\Documents\GitHub\repo\Pastane\Pastane\obj\Debug\Pastane.Properties.Resources.resources
+F:\Users\fatih\Documents\GitHub\repo\Pastane\Pastane\obj\Debug\Pastane.csproj.GenerateResource.cache
+F:\Users\fatih\Documents\GitHub\repo\Pastane\Pastane\obj\Debug\Pastane.csproj.CoreCompileInputs.cache
+F:\Users\fatih\Documents\GitHub\repo\Pastane\Pastane\obj\Debug\Pastane.exe
+F:\Users\fatih\Documents\GitHub\repo\Pastane\Pastane\obj\Debug\Pastane.pdb
+F:\Users\fatih\Documents\GitHub\repo\Pastane\Pastane\obj\Debug\Pastane.Satici.resources
