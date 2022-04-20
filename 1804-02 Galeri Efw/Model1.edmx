@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="GaleriModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Araclar">
+          <Key>
+            <PropertyRef Name="Araç No" />
+          </Key>
+          <Property Name="Araç No" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Araç Fiyat" Type="money" />
+          <Property Name="Araç Adet" Type="int" />
+          <Property Name="Araç Marka" Type="varchar" MaxLength="50" />
+          <Property Name="Araç Model" Type="varchar" MaxLength="50" />
+          <Property Name="Araç Yıl" Type="int" />
+          <Property Name="Araç Özellik" Type="varchar" MaxLength="50" />
+          <Property Name="Araç Motor" Type="varchar" MaxLength="50" />
+          <Property Name="Araç Paket" Type="varchar" MaxLength="50" />
+          <Property Name="Araç Renk" Type="varchar" MaxLength="50" />
+          <Property Name="Şube No" Type="int" />
+        </EntityType>
+        <EntityType Name="Kayit">
+          <Key>
+            <PropertyRef Name="Kullanıcı No" />
+          </Key>
+          <Property Name="Kullanıcı No" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Kullanıcı Adı" Type="varchar" MaxLength="50" />
+          <Property Name="Şifre" Type="varchar" MaxLength="50" />
+          <Property Name="Mail" Type="varchar" MaxLength="50" />
+          <Property Name="Telefon" Type="char" MaxLength="10" />
+          <Property Name="Tc" Type="char" MaxLength="11" />
+          <Property Name="Şirket Kodu" Type="int" />
+        </EntityType>
+        <EntityType Name="Kullanici">
+          <Key>
+            <PropertyRef Name="Kullanıcı No" />
+          </Key>
+          <Property Name="Kullanıcı No" Type="int" Nullable="false" />
+          <Property Name="Kullanıcı Adı Soyadı" Type="varchar" MaxLength="50" />
+          <Property Name="Kullanıcı Sirket" Type="varchar" MaxLength="50" />
+          <Property Name="Kullanıcı Tc" Type="varchar" MaxLength="50" />
+          <Property Name="Kullanıcı Mail" Type="varchar" MaxLength="50" />
+          <Property Name="Kullanıcı Telefon" Type="nchar" MaxLength="10" />
+          <Property Name="Kullanıcı Araç No" Type="int" />
+        </EntityType>
+        <EntityType Name="Musteri">
+          <Key>
+            <PropertyRef Name="Şirket Kodu" />
+          </Key>
+          <Property Name="Şirket No" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Şirket Adı" Type="varchar" MaxLength="50" />
+          <Property Name="Şirket Sektör" Type="varchar" MaxLength="50" />
+          <Property Name="Şirket Ceo" Type="varchar" MaxLength="50" />
+          <Property Name="Şirket Araç Sayısı" Type="int" />
+          <Property Name="Şirket Kodu" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Subeler">
+          <Key>
+            <PropertyRef Name="Şube No" />
+          </Key>
+          <Property Name="Şube No" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Şube Adı" Type="varchar" MaxLength="50" />
+          <Property Name="Çalışan Sayısı" Type="int" />
+          <Property Name="Şube Ciro" Type="money" />
+          <Property Name="Müşteri No" Type="int" />
+        </EntityType>
+        <Association Name="FK_Araclar_Subeler">
+          <End Role="Subeler" Type="Self.Subeler" Multiplicity="0..1" />
+          <End Role="Araclar" Type="Self.Araclar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Subeler">
+              <PropertyRef Name="Şube No" />
+            </Principal>
+            <Dependent Role="Araclar">
+              <PropertyRef Name="Şube No" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Kayit_Musteri">
+          <End Role="Musteri" Type="Self.Musteri" Multiplicity="0..1" />
+          <End Role="Kayit" Type="Self.Kayit" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Musteri">
+              <PropertyRef Name="Şirket Kodu" />
+            </Principal>
+            <Dependent Role="Kayit">
+              <PropertyRef Name="Şirket Kodu" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Kullanici_Araclar">
+          <End Role="Araclar" Type="Self.Araclar" Multiplicity="0..1" />
+          <End Role="Kullanici" Type="Self.Kullanici" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Araclar">
+              <PropertyRef Name="Araç No" />
+            </Principal>
+            <Dependent Role="Kullanici">
+              <PropertyRef Name="Kullanıcı Araç No" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Kullanici_Kayit">
+          <End Role="Kayit" Type="Self.Kayit" Multiplicity="1" />
+          <End Role="Kullanici" Type="Self.Kullanici" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Kayit">
+              <PropertyRef Name="Kullanıcı No" />
+            </Principal>
+            <Dependent Role="Kullanici">
+              <PropertyRef Name="Kullanıcı No" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="GaleriModelStoreContainer">
+          <EntitySet Name="Araclar" EntityType="Self.Araclar" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kayit" EntityType="Self.Kayit" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kullanici" EntityType="Self.Kullanici" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Musteri" EntityType="Self.Musteri" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Subeler" EntityType="Self.Subeler" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Araclar_Subeler" Association="Self.FK_Araclar_Subeler">
+            <End Role="Subeler" EntitySet="Subeler" />
+            <End Role="Araclar" EntitySet="Araclar" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Kayit_Musteri" Association="Self.FK_Kayit_Musteri">
+            <End Role="Musteri" EntitySet="Musteri" />
+            <End Role="Kayit" EntitySet="Kayit" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Kullanici_Araclar" Association="Self.FK_Kullanici_Araclar">
+            <End Role="Araclar" EntitySet="Araclar" />
+            <End Role="Kullanici" EntitySet="Kullanici" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Kullanici_Kayit" Association="Self.FK_Kullanici_Kayit">
+            <End Role="Kayit" EntitySet="Kayit" />
+            <End Role="Kullanici" EntitySet="Kullanici" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="GaleriModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Araclar">
+          <Key>
+            <PropertyRef Name="Araç_No" />
+          </Key>
+          <Property Name="Araç_No" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Araç_Fiyat" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Araç_Adet" Type="Int32" />
+          <Property Name="Araç_Marka" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Araç_Model" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Araç_Yıl" Type="Int32" />
+          <Property Name="Araç_Özellik" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Araç_Motor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Araç_Paket" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Araç_Renk" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Şube_No" Type="Int32" />
+          <NavigationProperty Name="Subeler" Relationship="Self.FK_Araclar_Subeler" FromRole="Araclar" ToRole="Subeler" />
+          <NavigationProperty Name="Kullanicis" Relationship="GaleriModel.FK_Kullanici_Araclar" FromRole="Araclar" ToRole="Kullanici" />
+        </EntityType>
+        <EntityType Name="Kayit">
+          <Key>
+            <PropertyRef Name="Kullanıcı_No" />
+          </Key>
+          <Property Name="Kullanıcı_No" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Kullanıcı_Adı" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Şifre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Telefon" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Name="Tc" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
+          <Property Name="Şirket_Kodu" Type="Int32" />
+          <NavigationProperty Name="Musteri" Relationship="Self.FK_Kayit_Musteri" FromRole="Kayit" ToRole="Musteri" />
+          <NavigationProperty Name="Kullanici" Relationship="GaleriModel.FK_Kullanici_Kayit" FromRole="Kayit" ToRole="Kullanici" />
+        </EntityType>
+        <EntityType Name="Musteri">
+          <Key>
+            <PropertyRef Name="Şirket_Kodu" />
+          </Key>
+          <Property Name="Şirket_No" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Şirket_Adı" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Şirket_Sektör" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Şirket_Ceo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Şirket_Araç_Sayısı" Type="Int32" />
+          <Property Name="Şirket_Kodu" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Kayits" Relationship="Self.FK_Kayit_Musteri" FromRole="Musteri" ToRole="Kayit" />
+        </EntityType>
+        <EntityType Name="Subeler">
+          <Key>
+            <PropertyRef Name="Şube_No" />
+          </Key>
+          <Property Name="Şube_No" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Şube_Adı" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Çalışan_Sayısı" Type="Int32" />
+          <Property Name="Şube_Ciro" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Müşteri_No" Type="Int32" />
+          <NavigationProperty Name="Araclars" Relationship="Self.FK_Araclar_Subeler" FromRole="Subeler" ToRole="Araclar" />
+        </EntityType>
+        <Association Name="FK_Araclar_Subeler">
+          <End Role="Subeler" Type="Self.Subeler" Multiplicity="0..1" />
+          <End Role="Araclar" Type="Self.Araclar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Subeler">
+              <PropertyRef Name="Şube_No" />
+            </Principal>
+            <Dependent Role="Araclar">
+              <PropertyRef Name="Şube_No" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Kayit_Musteri">
+          <End Role="Musteri" Type="Self.Musteri" Multiplicity="0..1" />
+          <End Role="Kayit" Type="Self.Kayit" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Musteri">
+              <PropertyRef Name="Şirket_Kodu" />
+            </Principal>
+            <Dependent Role="Kayit">
+              <PropertyRef Name="Şirket_Kodu" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="GaleriEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Araclars" EntityType="Self.Araclar" />
+          <EntitySet Name="Kayits" EntityType="Self.Kayit" />
+          <EntitySet Name="Musteris" EntityType="Self.Musteri" />
+          <EntitySet Name="Subelers" EntityType="Self.Subeler" />
+          <AssociationSet Name="FK_Araclar_Subeler" Association="Self.FK_Araclar_Subeler">
+            <End Role="Subeler" EntitySet="Subelers" />
+            <End Role="Araclar" EntitySet="Araclars" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Kayit_Musteri" Association="Self.FK_Kayit_Musteri">
+            <End Role="Musteri" EntitySet="Musteris" />
+            <End Role="Kayit" EntitySet="Kayits" />
+          </AssociationSet>
+          <EntitySet Name="Kullanicis" EntityType="GaleriModel.Kullanici" />
+          <AssociationSet Name="FK_Kullanici_Araclar" Association="GaleriModel.FK_Kullanici_Araclar">
+            <End Role="Araclar" EntitySet="Araclars" />
+            <End Role="Kullanici" EntitySet="Kullanicis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Kullanici_Kayit" Association="GaleriModel.FK_Kullanici_Kayit">
+            <End Role="Kayit" EntitySet="Kayits" />
+            <End Role="Kullanici" EntitySet="Kullanicis" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Kullanici">
+          <Key>
+            <PropertyRef Name="Kullanıcı_No" />
+          </Key>
+          <Property Name="Kullanıcı_No" Type="Int32" Nullable="false" />
+          <Property Name="Kullanıcı_Adı_Soyadı" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Kullanıcı_Sirket" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Kullanıcı_Tc" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Kullanıcı_Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Kullanıcı_Telefon" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Kullanıcı_Araç_No" Type="Int32" />
+          <NavigationProperty Name="Araclar" Relationship="GaleriModel.FK_Kullanici_Araclar" FromRole="Kullanici" ToRole="Araclar" />
+          <NavigationProperty Name="Kayit" Relationship="GaleriModel.FK_Kullanici_Kayit" FromRole="Kullanici" ToRole="Kayit" />
+        </EntityType>
+        <Association Name="FK_Kullanici_Araclar">
+          <End Type="GaleriModel.Araclar" Role="Araclar" Multiplicity="0..1" />
+          <End Type="GaleriModel.Kullanici" Role="Kullanici" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Araclar">
+              <PropertyRef Name="Araç_No" />
+            </Principal>
+            <Dependent Role="Kullanici">
+              <PropertyRef Name="Kullanıcı_Araç_No" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Kullanici_Kayit">
+          <End Type="GaleriModel.Kayit" Role="Kayit" Multiplicity="1" />
+          <End Type="GaleriModel.Kullanici" Role="Kullanici" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Kayit">
+              <PropertyRef Name="Kullanıcı_No" />
+            </Principal>
+            <Dependent Role="Kullanici">
+              <PropertyRef Name="Kullanıcı_No" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="GaleriModelStoreContainer" CdmEntityContainer="GaleriEntities">
+          <EntitySetMapping Name="Araclars">
+            <EntityTypeMapping TypeName="GaleriModel.Araclar">
+              <MappingFragment StoreEntitySet="Araclar">
+                <ScalarProperty Name="Araç_No" ColumnName="Araç No" />
+                <ScalarProperty Name="Araç_Fiyat" ColumnName="Araç Fiyat" />
+                <ScalarProperty Name="Araç_Adet" ColumnName="Araç Adet" />
+                <ScalarProperty Name="Araç_Marka" ColumnName="Araç Marka" />
+                <ScalarProperty Name="Araç_Model" ColumnName="Araç Model" />
+                <ScalarProperty Name="Araç_Yıl" ColumnName="Araç Yıl" />
+                <ScalarProperty Name="Araç_Özellik" ColumnName="Araç Özellik" />
+                <ScalarProperty Name="Araç_Motor" ColumnName="Araç Motor" />
+                <ScalarProperty Name="Araç_Paket" ColumnName="Araç Paket" />
+                <ScalarProperty Name="Araç_Renk" ColumnName="Araç Renk" />
+                <ScalarProperty Name="Şube_No" ColumnName="Şube No" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kayits">
+            <EntityTypeMapping TypeName="GaleriModel.Kayit">
+              <MappingFragment StoreEntitySet="Kayit">
+                <ScalarProperty Name="Kullanıcı_No" ColumnName="Kullanıcı No" />
+                <ScalarProperty Name="Kullanıcı_Adı" ColumnName="Kullanıcı Adı" />
+                <ScalarProperty Name="Şifre" ColumnName="Şifre" />
+                <ScalarProperty Name="Mail" ColumnName="Mail" />
+                <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+                <ScalarProperty Name="Tc" ColumnName="Tc" />
+                <ScalarProperty Name="Şirket_Kodu" ColumnName="Şirket Kodu" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Musteris">
+            <EntityTypeMapping TypeName="GaleriModel.Musteri">
+              <MappingFragment StoreEntitySet="Musteri">
+                <ScalarProperty Name="Şirket_No" ColumnName="Şirket No" />
+                <ScalarProperty Name="Şirket_Adı" ColumnName="Şirket Adı" />
+                <ScalarProperty Name="Şirket_Sektör" ColumnName="Şirket Sektör" />
+                <ScalarProperty Name="Şirket_Ceo" ColumnName="Şirket Ceo" />
+                <ScalarProperty Name="Şirket_Araç_Sayısı" ColumnName="Şirket Araç Sayısı" />
+                <ScalarProperty Name="Şirket_Kodu" ColumnName="Şirket Kodu" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Subelers">
+            <EntityTypeMapping TypeName="GaleriModel.Subeler">
+              <MappingFragment StoreEntitySet="Subeler">
+                <ScalarProperty Name="Şube_No" ColumnName="Şube No" />
+                <ScalarProperty Name="Şube_Adı" ColumnName="Şube Adı" />
+                <ScalarProperty Name="Çalışan_Sayısı" ColumnName="Çalışan Sayısı" />
+                <ScalarProperty Name="Şube_Ciro" ColumnName="Şube Ciro" />
+                <ScalarProperty Name="Müşteri_No" ColumnName="Müşteri No" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kullanicis">
+            <EntityTypeMapping TypeName="GaleriModel.Kullanici">
+              <MappingFragment StoreEntitySet="Kullanici">
+                <ScalarProperty Name="Kullanıcı_Araç_No" ColumnName="Kullanıcı Araç No" />
+                <ScalarProperty Name="Kullanıcı_Telefon" ColumnName="Kullanıcı Telefon" />
+                <ScalarProperty Name="Kullanıcı_Mail" ColumnName="Kullanıcı Mail" />
+                <ScalarProperty Name="Kullanıcı_Tc" ColumnName="Kullanıcı Tc" />
+                <ScalarProperty Name="Kullanıcı_Sirket" ColumnName="Kullanıcı Sirket" />
+                <ScalarProperty Name="Kullanıcı_Adı_Soyadı" ColumnName="Kullanıcı Adı Soyadı" />
+                <ScalarProperty Name="Kullanıcı_No" ColumnName="Kullanıcı No" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

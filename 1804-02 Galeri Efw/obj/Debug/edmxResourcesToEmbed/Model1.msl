@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GaleriModelStoreContainer" CdmEntityContainer="GaleriEntities">
+    <EntitySetMapping Name="Araclars">
+      <EntityTypeMapping TypeName="GaleriModel.Araclar">
+        <MappingFragment StoreEntitySet="Araclar">
+          <ScalarProperty Name="Araç_No" ColumnName="Araç No" />
+          <ScalarProperty Name="Araç_Fiyat" ColumnName="Araç Fiyat" />
+          <ScalarProperty Name="Araç_Adet" ColumnName="Araç Adet" />
+          <ScalarProperty Name="Araç_Marka" ColumnName="Araç Marka" />
+          <ScalarProperty Name="Araç_Model" ColumnName="Araç Model" />
+          <ScalarProperty Name="Araç_Yıl" ColumnName="Araç Yıl" />
+          <ScalarProperty Name="Araç_Özellik" ColumnName="Araç Özellik" />
+          <ScalarProperty Name="Araç_Motor" ColumnName="Araç Motor" />
+          <ScalarProperty Name="Araç_Paket" ColumnName="Araç Paket" />
+          <ScalarProperty Name="Araç_Renk" ColumnName="Araç Renk" />
+          <ScalarProperty Name="Şube_No" ColumnName="Şube No" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kayits">
+      <EntityTypeMapping TypeName="GaleriModel.Kayit">
+        <MappingFragment StoreEntitySet="Kayit">
+          <ScalarProperty Name="Kullanıcı_No" ColumnName="Kullanıcı No" />
+          <ScalarProperty Name="Kullanıcı_Adı" ColumnName="Kullanıcı Adı" />
+          <ScalarProperty Name="Şifre" ColumnName="Şifre" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Tc" ColumnName="Tc" />
+          <ScalarProperty Name="Şirket_Kodu" ColumnName="Şirket Kodu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Musteris">
+      <EntityTypeMapping TypeName="GaleriModel.Musteri">
+        <MappingFragment StoreEntitySet="Musteri">
+          <ScalarProperty Name="Şirket_No" ColumnName="Şirket No" />
+          <ScalarProperty Name="Şirket_Adı" ColumnName="Şirket Adı" />
+          <ScalarProperty Name="Şirket_Sektör" ColumnName="Şirket Sektör" />
+          <ScalarProperty Name="Şirket_Ceo" ColumnName="Şirket Ceo" />
+          <ScalarProperty Name="Şirket_Araç_Sayısı" ColumnName="Şirket Araç Sayısı" />
+          <ScalarProperty Name="Şirket_Kodu" ColumnName="Şirket Kodu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subelers">
+      <EntityTypeMapping TypeName="GaleriModel.Subeler">
+        <MappingFragment StoreEntitySet="Subeler">
+          <ScalarProperty Name="Şube_No" ColumnName="Şube No" />
+          <ScalarProperty Name="Şube_Adı" ColumnName="Şube Adı" />
+          <ScalarProperty Name="Çalışan_Sayısı" ColumnName="Çalışan Sayısı" />
+          <ScalarProperty Name="Şube_Ciro" ColumnName="Şube Ciro" />
+          <ScalarProperty Name="Müşteri_No" ColumnName="Müşteri No" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kullanicis">
+      <EntityTypeMapping TypeName="GaleriModel.Kullanici">
+        <MappingFragment StoreEntitySet="Kullanici">
+          <ScalarProperty Name="Kullanıcı_Araç_No" ColumnName="Kullanıcı Araç No" />
+          <ScalarProperty Name="Kullanıcı_Telefon" ColumnName="Kullanıcı Telefon" />
+          <ScalarProperty Name="Kullanıcı_Mail" ColumnName="Kullanıcı Mail" />
+          <ScalarProperty Name="Kullanıcı_Tc" ColumnName="Kullanıcı Tc" />
+          <ScalarProperty Name="Kullanıcı_Sirket" ColumnName="Kullanıcı Sirket" />
+          <ScalarProperty Name="Kullanıcı_Adı_Soyadı" ColumnName="Kullanıcı Adı Soyadı" />
+          <ScalarProperty Name="Kullanıcı_No" ColumnName="Kullanıcı No" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

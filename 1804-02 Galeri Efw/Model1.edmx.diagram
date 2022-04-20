@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6ccb911793fe4b12b597086ee604e250" Name="Diagram1">
+        <EntityTypeShape EntityType="GaleriModel.Araclar" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="GaleriModel.Kayit" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="GaleriModel.Musteri" Width="1.5" PointX="5.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="GaleriModel.Subeler" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <AssociationConnector Association="GaleriModel.FK_Araclar_Subeler" ManuallyRouted="false" />
+        <AssociationConnector Association="GaleriModel.FK_Kayit_Musteri" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="GaleriModel.Kullanici" Width="1.5" PointX="10.25" PointY="1.375" />
+        <AssociationConnector Association="GaleriModel.FK_Kullanici_Araclar" />
+        <AssociationConnector Association="GaleriModel.FK_Kullanici_Kayit" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
